@@ -1,9 +1,14 @@
 package developer;
 
+import org.testng.annotations.Test;
+
 public class Developer_FrameWork {
 
-	public static void main(String[] args) {
+	@Test
+	public void practice() {
+		System.out.println("Sample Practice Created");
 		System.out.println("welcome");
+		
 
 	}
 
